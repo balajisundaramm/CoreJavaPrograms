@@ -4,12 +4,14 @@ public class StepsToProgramExcerciseUpgrade {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		Scanner sc1= new Scanner(System.in);
-		System.out.println("Please Enter an option");
+		int choice=0;
+		while(choice!=4){
+			System.out.println("Please Enter an option");
 		System.out.println("Press 1 to check prime number");
 		System.out.println("Press 2 to check even");
 		System.out.println("Press 3 to generate fibonacci");
-		System.out.println("Press 0 to exit");
-		int choice=sc.nextInt();
+		System.out.println("Press 4 to exit");
+		 choice=sc.nextInt();
 		int num=0;
 		switch (choice) {
 				case 1 : 
@@ -34,10 +36,11 @@ public class StepsToProgramExcerciseUpgrade {
 					int limit = sc1.nextInt();
 					printFibonacci(limit);
 					break;
-				case 0 :
-					System.out.println("Thank you ");
+				case 4 :
+					System.out.println("Thank y---ou ");
 					System.exit(0);
 			}	
+		}
 	}
 	public static boolean isEven(int num) {
 		return (num&1)==0;

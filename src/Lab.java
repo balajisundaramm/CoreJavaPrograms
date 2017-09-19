@@ -106,8 +106,8 @@ public class Lab
 		}
 */
 
-		int i = -8;
-		System.out.println(i>>6);
+		int i = (1%10);
+		System.out.println(i);
 
 
 		
