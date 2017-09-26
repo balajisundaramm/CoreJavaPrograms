@@ -3,7 +3,7 @@ public class Dog{
 	private int size;
 
 public void setName(String str) {
-	if (str!=null) {
+	if (str!=null /*|| str!=""*/) {
 		name=str;
 	}
 	else
@@ -28,7 +28,7 @@ public int getSize() {
 		}
 		else
 		for (int i=1;i<=size;i++) {
-			System.out.println("I am a dog with name "+name+" with size "+size+" barking bow wow..");
+			System.out.println("I am a dog with name "+name+" & with size "+size+" barking bow wow..");
 		}
 	}
 }

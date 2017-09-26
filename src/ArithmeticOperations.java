@@ -2,9 +2,9 @@ public class ArithmeticOperations{
 
 	public static void main(String[] args) {
 
-		/*for (int num : separateDigits(854321)) {
+		for (int num : separateDigits(854321)) {
 			System.out.println(num);
-		}*/
+		}
 			//System.out.println(toBinary(10));
 		
 			//System.out.println(toOctal(100));

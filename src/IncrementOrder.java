@@ -17,7 +17,7 @@ public class IncrementOrder{
 		boolean result=checkIncrementOrder(num);
 		System.out.println("Is the number, "+num+" in increasing order ");
 		System.out.println(result);
-		num=12389642;
+		num=12388;
 		result=checkIncrementOrder(num);
 		System.out.println("Is the number, "+num+" in increasing order ");
 		System.out.println(result);
@@ -34,7 +34,7 @@ public class IncrementOrder{
 		public static boolean checkIncrementOrder(int num) {
 		int [] numDigits=separateDigits(num);
 		for (int i=0;i<numDigits.length-1;i++) {
-			if (numDigits[i]>numDigits[i+1]) {
+			if (numDigits[i]>=numDigits[i+1]) {
 				return false;
 			}
 		}
