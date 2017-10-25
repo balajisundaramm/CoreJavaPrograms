@@ -20,7 +20,7 @@ public class BigPalindrome {
         String firstSet="";
       // String[] strings=new String[55];
        //String[] result=new String[2];
-       int a=0,temp=0;
+       //int a=0,temp=0;
        // Finding the sets of possible strings and checking they are Palindromes
         /*for (int i = 0; i <str.length()-1 ; i++) {
             for (int j = str.length(); (j-i)>1 ; j--) {
@@ -49,14 +49,18 @@ public class BigPalindrome {
 
         // Method 2 solving this:
         String max="";
-       for (int i = 0; i <str.length()-1 ; i++) {
-           for (int j = str.length(); (j-i)>1 ; j--) {
+       boolean b=true;
+       for (int i = 0; i <=str.length()-1 ; i++) {
+           for (int j = str.length(); (j-i)>0 ; j--) {
                firstSet=str.substring(i,j);
-               boolean b=isPalindrome(firstSet);
+               if (firstSet.length()>1) {
+                   b = isPalindrome(firstSet);
+               }
                if (b){
                    if (max.length()<firstSet.length())
                        max=firstSet;
                }
+               b=true;
 
            }
        }

@@ -5,6 +5,7 @@ digits is equal to the number itself. For example, 371 is an Armstrong number si
 
 public class Armstrong{
 	public static void main(String[] args) {
+
 		checkArmstrong();
 	}
 

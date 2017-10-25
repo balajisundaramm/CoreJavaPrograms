@@ -6,6 +6,9 @@ public class TestMath
 {
 	public static void main(String[] args)
 	{
+		int r= Math.min(-0, +0);
+		//if(-5.0 == +5.0)
+		System.out.println(r);
 		double x = 140;
 		double res = Math.sqrt(x);
 		System.out.println("sqrt of "+x+" = "+res);
@@ -33,7 +36,7 @@ public class TestMath
 		System.out.println("Abs value of +9.999 is "+res);
 		res=Math.abs(-9.999);
 		System.out.println("Abs value of -9.999 is "+res);
-		
+
 	}
 }
 
