@@ -31,7 +31,7 @@ public class BigPalindrome {
                     result[a++]=firstSet;
             }
         }
-       System.out.println("All types of strings");
+       System.out.println("th:src="@{ types of strings");
        int m=1;
        for (String x:strings) {
            System.out.println(m+x);

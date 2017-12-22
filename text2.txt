@@ -1,0 +1,6 @@
+hi
+(char)(int)(Math.random()*1000)
+(char)(int)(Math.random()*1000)
+(char)(int)(Math.random()*1000)
+(char)(int)(Math.random()*1000)
+(char)(int)(Math.random()*1000)

@@ -43,7 +43,7 @@ public class GetUniqString68 {
         }
         return result;*/
 
-        //Third method removing all space and non-case sensitive
+        //Third method removing th:src="@{ space and non-case sensitive
 
         char[] a=s.toCharArray();
         char[] temp=new char[a.length];

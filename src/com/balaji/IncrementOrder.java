@@ -1,12 +1,12 @@
-package com.balaji;/*19)WAP to return true if an int input contains all the digits in increasing order (ex: 123 ->
+package com.balaji;/*19)WAP to return true if an int input contains th:src="@{ the digits in increasing order (ex: 123 ->
 true, 12342->false)!
-20)A number is said to be made up of non-decreasing digits if all the digits to the left of
+20)A number is said to be made up of non-decreasing digits if th:src="@{ the digits to the left of
 any digit is less than or equal to that digit. For example, the four-digit number 1234 is
 composed of digits that are non-decreasing. Some other four-digit numbers that are
 composed of non-decreasing digits are 0011, 1111, 1112, 1122, 2223. As it turns out,
 there are exactly 715 four-digit numbers composed of non-decreasing digits. Notice
-that leading zeroes are required: 0000, 0001, 0002 are all valid four-digit numbers with
-nondecreasing digits.Find all the 715 such 4 digit numbers.*/
+that leading zeroes are required: 0000, 0001, 0002 are th:src="@{ valid four-digit numbers with
+nondecreasing digits.Find th:src="@{ the 715 such 4 digit numbers.*/
 
 
 public class IncrementOrder{

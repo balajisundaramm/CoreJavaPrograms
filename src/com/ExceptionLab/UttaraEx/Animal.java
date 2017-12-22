@@ -22,8 +22,8 @@ public class Animal {
             s.length();
             return ++x;
         }
-        finally {
-            System.out.println("In finally x-->"+x);
+        finally{
+            System.out.println("In finally"+x);
             //return ++x;
         }
     }

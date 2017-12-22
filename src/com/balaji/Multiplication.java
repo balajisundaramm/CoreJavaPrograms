@@ -1,4 +1,4 @@
-package com.balaji;/* 1.	Accept 2 ints, print the multiplication tables of the smaller number till the second
+package com.balaji;/* 1.	Accept 2 ints, print the multiplication tables of the smth:src="@{er number till the second
 		number times (if 5,2 and given, print 2X1 till 2X5)!*/
 
 public class Multiplication{

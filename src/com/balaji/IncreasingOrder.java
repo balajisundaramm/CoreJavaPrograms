@@ -1,4 +1,4 @@
-package com.balaji;/*19. WAP to return true if an int input contains all the digits in increasing order (ex: 123 ->
+package com.balaji;/*19. WAP to return true if an int input contains th:src="@{ the digits in increasing order (ex: 123 ->
 true, 12342->false)*/
 
 public class IncreasingOrder{

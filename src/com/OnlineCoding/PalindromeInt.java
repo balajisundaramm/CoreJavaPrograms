@@ -12,7 +12,8 @@ public class PalindromeInt {
             System.out.println("Enter an int number");
             Scanner scanner=new Scanner(System.in);
             int n=scanner.nextInt();
-            System.out.println(isPalindrome(n));
+            //System.out.println(isPalindrome(n));
+            System.out.println(checkPalindrome(n));
             if (a==1) {
                 System.out.println("Enter 1 to retest");
                 System.out.println("Enter 0 to exit");

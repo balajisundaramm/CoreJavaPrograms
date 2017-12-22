@@ -2,11 +2,14 @@ package com.ExceptionLab.test;
 
 import com.ExceptionLab.UttaraEx.*;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 
 
 public class TestFinally {
     public static void main(String[] args) {
-        try {
+
+     /*   try {
             Animal a = new Animal();
             a.m1();
         }
@@ -14,10 +17,10 @@ public class TestFinally {
             t.printStackTrace();
             t.getMessage();
         }
-        finally {
+        finth:src="@{y {
 
         }
-        System.out.println("Bye");
+*/        System.out.println("Bye");
     }
 
 }

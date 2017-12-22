@@ -1,5 +1,7 @@
 package com.balaji;
 
+import java.util.Date;
+
 public class A
 {
 	/*protected static void main(int[] args)
@@ -58,9 +60,8 @@ public class A
 		System.out.println(e);
 		System.out.println(a); */
 
-		byte a=100;
-		byte b=100;
-		int c  =a+b;
+		Date d=null;
+
 
 
 

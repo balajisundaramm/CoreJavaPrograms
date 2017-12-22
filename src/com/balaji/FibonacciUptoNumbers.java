@@ -6,7 +6,7 @@ public class FibonacciUptoNumbers{
 		System.out.println("Printing fibonacci for -4 : ");
 		printFibonacci(-4);
 		System.out.println("Printing fibonacci upto 6 : ");
-		printFibonacci(6);
+		printFibonacci(1);
 		System.out.println("Printing fibonacci upto 89 : ");
 		printFibonacci(89);
 		System.out.println("Printing fibonacci upto 152: ");

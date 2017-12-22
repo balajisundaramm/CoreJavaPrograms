@@ -49,7 +49,7 @@ public class c
 	}
 */
 
-// 26. 2 methods callling
+// 26. 2 methods cth:src="@{ling
 /*
 
 	public static void main(String[] args)

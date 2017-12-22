@@ -6,7 +6,7 @@ package com.balaji;
 public class SortingInAssending {
     public static void main(String[] args){
         int[] arr={10,62,54,34,75,9};
-        for (int x:sortArray(arr)) {
+        for (int x:sort(arr)) {
             System.out.println(x);
         }
     }
@@ -23,5 +23,19 @@ public class SortingInAssending {
         }
 
         return result;
+    }
+    public static int[] sort(int[] arr){
+        int num=0;
+        while (num<arr.length) {
+            for (int i = 0; i < arr.length - 1; i++) {
+                if (arr[i] > arr[i + 1]) {
+                    arr[i] = arr[i] ^ arr[i + 1];
+                    arr[i + 1] = arr[i] ^ arr[i + 1];
+                    arr[i] = arr[i] ^ arr[i + 1];
+                }
+            }
+            num++;
+        }
+        return arr;
     }
 }

@@ -9,7 +9,6 @@ public class Pyramid {
     }
 
     public static void printPyramid(int row) {
-        int t=6;
         for (int i =0; i <row ; i++) {
             for (int colspace = 0; colspace <(row-i) ; colspace++) {
                 System.out.print(" ");
